@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сортировка таблицы</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th data-type="string">Имя</th>
+                <th data-type="number">Возраст</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Алиса</td><td>25</td></tr>
+            <tr><td>Боб</td><td>30</td></tr>
+            <tr><td>Чарли</td><td>22</td></tr>
+        </tbody>
+    </table>
+    <script src="sortTable.js"></script>
+</body>
+</html>
